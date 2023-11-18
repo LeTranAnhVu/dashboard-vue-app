@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: 'class',
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+    content: [
+        // Example content paths...
+        './public/**/*.html',
+        './src/**/*.{js,jsx,ts,tsx,vue}',
+    ],
+    darkMode: 'class',
+    theme: {
+        extend: {},
+    },
+    plugins: [],
 }
-

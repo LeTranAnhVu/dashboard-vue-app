@@ -1,12 +1,13 @@
 <script setup lang="ts">
-console.log()
+import TopBar from './components/layout/TopBar.vue';
+import SideBar from './components/layout/SideBar.vue';
 </script>
 
 <template>
     <div>
-        <p class="bg-amber-950 text-white">This is the text</p>
+      <TopBar></TopBar>
+      <SideBar></SideBar>
     </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
