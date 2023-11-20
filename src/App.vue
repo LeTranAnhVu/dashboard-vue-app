@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import TopBar from './components/layout/TopBar.vue';
-import SideBar from './components/layout/SideBar.vue';
+// import TopBar from './components/layout/TopBar.vue';
+import SideBar from '@/components/layout/SideBar/SideBar.vue'
 </script>
 
 <template>
     <div>
-      <TopBar></TopBar>
-      <SideBar></SideBar>
+        <!--      <TopBar></TopBar>-->
+        <SideBar></SideBar>
     </div>
 </template>
 

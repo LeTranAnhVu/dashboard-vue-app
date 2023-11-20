@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="text-3xl">Top bar</div>
+<div class="border-2">Top bar</div>
 </template>
 
 <style scoped>
