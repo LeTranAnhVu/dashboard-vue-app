@@ -8,7 +8,6 @@ const isCollapsed = ref(false)
 const handleCollapse = () => {
     isCollapsed.value = !isCollapsed.value
 }
-
 </script>
 <template>
     <div :class="`sidebar ${isCollapsed ? 'collapsed' : ''}`">
@@ -45,12 +44,10 @@ const handleCollapse = () => {
 .sidebar {
     @apply border-2
     min-w-[280px]
+    relative
     lg:w-1/6
     md:w-1/4
     h-screen
-    fixed
-    top-0
-    left-0
     text-slate-300
     bg-slate-900
     p-4
