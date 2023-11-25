@@ -17,18 +17,16 @@ const handleCollapse = () => {
         </div>
         <ul class="body">
             <Menu icon="fa-solid fa-grip" header="Dashboard">
-                <MenuItem icon="fa-solid fa-shop" name="eCommerce" />
-                <MenuItem icon="fa-solid fa-chart-simple" name="Analytics" badge="Pro" />
-                <MenuItem icon="fa-solid fa-bullhorn" name="Marketing" active />
-                <MenuItem icon="fa-solid fa-people-group" name="CRM" badge="Pro" />
+                <MenuItem icon="fa-solid fa-shop" name="Home" link="/" />
+                <MenuItem icon="fa-solid fa-shop" name="About" link="/about" />
             </Menu>
-            <li class="single-menu">
-                <MenuItem icon="fa-regular fa-calendar-days" name="Calendar" />
-            </li>
-            <Menu icon="fa-solid fa-id-card" header="Authentication">
-                <MenuItem icon="fa-solid fa-arrow-right-to-bracket" name="Sign out" />
-                <MenuItem icon="fa-solid fa-pen-to-square" name="Reset password" badge="Pro" />
-            </Menu>
+<!--            <li class="single-menu">-->
+<!--                <MenuItem icon="fa-regular fa-calendar-days" name="Calendar" />-->
+<!--            </li>-->
+<!--            <Menu icon="fa-solid fa-id-card" header="Authentication">-->
+<!--                <MenuItem icon="fa-solid fa-arrow-right-to-bracket" name="Sign out" />-->
+<!--                <MenuItem icon="fa-solid fa-pen-to-square" name="Reset password" badge="Pro" />-->
+<!--            </Menu>-->
         </ul>
 
         <Icon

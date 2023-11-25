@@ -19,6 +19,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faBell, faCalendarDays, faCommentDots } from '@fortawesome/free-regular-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import router from '@/router.ts'
 
 library.add(
     faGrip,
@@ -39,4 +40,7 @@ library.add(
     faCommentDots,
 )
 
-createApp(App).component('Icon', FontAwesomeIcon).mount('#app')
+const app = createApp(App)
+app.use(router)
+app.component('Icon', FontAwesomeIcon)
+app.mount('#app')

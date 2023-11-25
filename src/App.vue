@@ -10,7 +10,9 @@ import SideBar from '@/components/layout/SideBar/SideBar.vue'
         </div>
         <div class="body-wrapper">
             <TopBar class="topbar"></TopBar>
-            <div class="main-wrapper"></div>
+            <div class="main-wrapper">
+                <router-view></router-view>
+            </div>
         </div>
     </div>
 </template>
