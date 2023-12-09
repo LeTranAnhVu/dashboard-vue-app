@@ -18,6 +18,7 @@ const handleCollapse = () => {
         <ul class="body">
             <Menu icon="fa-solid fa-grip" header="Dashboard">
                 <MenuItem icon="fa-solid fa-shop" name="Home" link="/" />
+                <MenuItem icon="fa-solid fa-shop" name="Pricing" link="/pricing" />
                 <MenuItem icon="fa-solid fa-shop" name="About" link="/about" />
             </Menu>
 <!--            <li class="single-menu">-->

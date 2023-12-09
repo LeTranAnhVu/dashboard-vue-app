@@ -4,9 +4,11 @@
 import Home from '@/views/Home.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import About from '@/views/About.vue'
+import PricingTable from '@/views/PricingTable.vue'
 
 const routes = [
     { path: '/', component: Home },
+    { path: '/pricing', component: PricingTable },
     { path: '/about', component: About },
 ]
 
